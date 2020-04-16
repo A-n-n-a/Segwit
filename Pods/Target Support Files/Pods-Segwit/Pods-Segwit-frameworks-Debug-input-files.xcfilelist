@@ -9,7 +9,6 @@ ${BUILT_PRODUCTS_DIR}/DashKit.swift/DashKit.framework
 ${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework
 ${BUILT_PRODUCTS_DIR}/HdWalletKit.swift/HdWalletKit.framework
 ${BUILT_PRODUCTS_DIR}/Hodler.swift/Hodler.framework
-${BUILT_PRODUCTS_DIR}/LibWally/LibWally.framework
 ${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
 ${BUILT_PRODUCTS_DIR}/OpenSslKit.swift/OpenSslKit.framework
 ${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework

@@ -9,7 +9,6 @@ target 'Segwit' do
   pod 'BitcoinKit.swift'
   pod 'BitcoinCashKit.swift'
   pod 'DashKit.swift'
-  pod 'LibWally', :git => 'https://github.com/blockchain/LibWally-Swift.git', :branch => 'master', :submodules => true
 
   target 'SegwitTests' do
     inherit! :search_paths

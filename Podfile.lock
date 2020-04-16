@@ -54,7 +54,6 @@ PODS:
     - BitcoinCore.swift (~> 0.13.2)
     - OpenSslKit.swift (~> 1.0)
     - Secp256k1Kit.swift (~> 1.0)
-  - LibWally (0.0.1)
   - ObjectMapper (3.5.2)
   - OpenSslKit.swift (1.2)
   - RxSwift (5.1.0)
@@ -66,7 +65,6 @@ DEPENDENCIES:
   - BitcoinCore.swift
   - BitcoinKit.swift
   - DashKit.swift
-  - LibWally (from `https://github.com/blockchain/LibWally-Swift.git`, branch `master`)
 
 SPEC REPOS:
   trunk:
@@ -86,18 +84,6 @@ SPEC REPOS:
     - Secp256k1Kit.swift
     - X11Kit.swift
 
-EXTERNAL SOURCES:
-  LibWally:
-    :branch: master
-    :git: https://github.com/blockchain/LibWally-Swift.git
-    :submodules: true
-
-CHECKOUT OPTIONS:
-  LibWally:
-    :commit: 177932b189157af65ff48710dd56100f09f59f69
-    :git: https://github.com/blockchain/LibWally-Swift.git
-    :submodules: true
-
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
@@ -109,13 +95,12 @@ SPEC CHECKSUMS:
   GRDB.swift: 22e9d04cb732dfa9fa4440bc0bbb069ee8195183
   HdWalletKit.swift: 45af883b0aa722a56ed9a0de82121ba6c43cce3f
   Hodler.swift: 19c22fbea5f44cc6479df18fbc8c29233e9a5c2d
-  LibWally: 37b7c926e9aa02cc7d4c5a2a2a3a4f8925ea5038
   ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
   OpenSslKit.swift: 168b059e3438c21994a3e9fe6c5648df96660d94
   RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
   Secp256k1Kit.swift: 93b1bfbb8909c12605666cc3b1e59d1d1fde7322
   X11Kit.swift: 6cfd05473e41c7b866c1a016300da02af63ad049
 
-PODFILE CHECKSUM: d8a332ab86e988592294bb59a863016645f17051
+PODFILE CHECKSUM: 0fccd3222b88869a0f945ccc954cd074337bfc2c
 
 COCOAPODS: 1.8.4
