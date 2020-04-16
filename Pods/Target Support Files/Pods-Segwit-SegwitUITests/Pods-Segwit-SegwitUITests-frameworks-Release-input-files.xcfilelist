@@ -1,0 +1,17 @@
+${PODS_ROOT}/Target Support Files/Pods-Segwit-SegwitUITests/Pods-Segwit-SegwitUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework
+${BUILT_PRODUCTS_DIR}/BitcoinCashKit.swift/BitcoinCashKit.framework
+${BUILT_PRODUCTS_DIR}/BitcoinCore.swift/BitcoinCore.framework
+${BUILT_PRODUCTS_DIR}/BitcoinKit.swift/BitcoinKit.framework
+${BUILT_PRODUCTS_DIR}/BlsKit.swift/BlsKit.framework
+${BUILT_PRODUCTS_DIR}/DashKit.swift/DashKit.framework
+${BUILT_PRODUCTS_DIR}/GRDB.swift/GRDB.framework
+${BUILT_PRODUCTS_DIR}/HdWalletKit.swift/HdWalletKit.framework
+${BUILT_PRODUCTS_DIR}/Hodler.swift/Hodler.framework
+${BUILT_PRODUCTS_DIR}/LibWally/LibWally.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/OpenSslKit.swift/OpenSslKit.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/Secp256k1Kit.swift/Secp256k1Kit.framework
+${BUILT_PRODUCTS_DIR}/X11Kit.swift/X11Kit.framework

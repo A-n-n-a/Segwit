@@ -1,0 +1,121 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BigInt (5.0.0)
+  - BitcoinCashKit.swift (0.13.2):
+    - Alamofire (~> 4.0)
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.13.2)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.4)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - BitcoinCore.swift (0.13.6):
+    - Alamofire (~> 4.0)
+    - BigInt (~> 5.0)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.4)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - BitcoinKit.swift (0.13.2):
+    - Alamofire (~> 4.0)
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.13.2)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.4)
+    - Hodler.swift (~> 0.13.2)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - BlsKit.swift (1.0)
+  - DashKit.swift (0.13.3):
+    - Alamofire (~> 4.0)
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.13.2)
+    - BlsKit.swift (~> 1.0)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.4)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+    - X11Kit.swift (~> 1.0)
+  - GRDB.swift (4.11.0):
+    - GRDB.swift/standard (= 4.11.0)
+  - GRDB.swift/standard (4.11.0)
+  - HdWalletKit.swift (1.4):
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - Hodler.swift (0.13.2):
+    - BitcoinCore.swift (~> 0.13.2)
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - LibWally (0.0.1)
+  - ObjectMapper (3.5.2)
+  - OpenSslKit.swift (1.2)
+  - RxSwift (5.1.0)
+  - Secp256k1Kit.swift (1.0)
+  - X11Kit.swift (1.0)
+
+DEPENDENCIES:
+  - BitcoinCashKit.swift
+  - BitcoinCore.swift
+  - BitcoinKit.swift
+  - DashKit.swift
+  - LibWally (from `https://github.com/blockchain/LibWally-Swift.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - BitcoinCashKit.swift
+    - BitcoinCore.swift
+    - BitcoinKit.swift
+    - BlsKit.swift
+    - DashKit.swift
+    - GRDB.swift
+    - HdWalletKit.swift
+    - Hodler.swift
+    - ObjectMapper
+    - OpenSslKit.swift
+    - RxSwift
+    - Secp256k1Kit.swift
+    - X11Kit.swift
+
+EXTERNAL SOURCES:
+  LibWally:
+    :branch: master
+    :git: https://github.com/blockchain/LibWally-Swift.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  LibWally:
+    :commit: 177932b189157af65ff48710dd56100f09f59f69
+    :git: https://github.com/blockchain/LibWally-Swift.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  BitcoinCashKit.swift: 91e981ddc6e663d598130c65a1e756393058a2e7
+  BitcoinCore.swift: b2498d398bbf39b1d568980deaf1fe372df509dc
+  BitcoinKit.swift: 1d216c95eed1a8fcfa997e4d86fe10559d84f56c
+  BlsKit.swift: 533e494e0068f9ad2cf211a31fe9279f688af123
+  DashKit.swift: 6ee100d9c2f847c7564c5bf5cfbfbd738393c92b
+  GRDB.swift: 22e9d04cb732dfa9fa4440bc0bbb069ee8195183
+  HdWalletKit.swift: 45af883b0aa722a56ed9a0de82121ba6c43cce3f
+  Hodler.swift: 19c22fbea5f44cc6479df18fbc8c29233e9a5c2d
+  LibWally: 37b7c926e9aa02cc7d4c5a2a2a3a4f8925ea5038
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  OpenSslKit.swift: 168b059e3438c21994a3e9fe6c5648df96660d94
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
+  Secp256k1Kit.swift: 93b1bfbb8909c12605666cc3b1e59d1d1fde7322
+  X11Kit.swift: 6cfd05473e41c7b866c1a016300da02af63ad049
+
+PODFILE CHECKSUM: d8a332ab86e988592294bb59a863016645f17051
+
+COCOAPODS: 1.8.4
